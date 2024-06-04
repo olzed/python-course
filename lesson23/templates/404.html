@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Get Weather Conditions</title>
+    <title>City not found</title>
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='styles/style.css')}} "
     />
   </head>
   <body>
-    <h1>Get Weather Conditions</h1>
+    <h1>Error</h1>
+    <p>City not found, please try again.</p>
     <form action="/weather">
       <input type="text" name="city" id="city" placeholder="Enter a city" />
       <button type/="submit">Go</button>
